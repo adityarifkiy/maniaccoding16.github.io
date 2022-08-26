@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Website Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <!-- navbar  -->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="https://wa.me/6281390153602">Contact</a>
+      <a href="portofolio/calculator/calculators.html">Calculators</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- navbar -->
+  </header>
+
+  <!-- Content -->
+  <main>
+    <div class="content">
+      <article>
+        <section class="card">
+          <h2>Tentang Saya</h2>
+          <p> Saya lulusan <em><strong>SMK Negeri 7 Semarang</strong></em>. Saya saat ini berprofesi sebagai IT Support di salah satu instansi pendidikan di Kota Semarang. Saya memiliki pengalaman kurang lebih <em> 1 tahun sebagai <strong>Field Engineer</strong> di salah satu ISP di Kota Semarang</em>.
+            Kemudian saya memiliki keahlian dasar <strong>mikrotik</strong> dan dasar pemrograman menggunakan <strong>HTML, CSS, Javascript.</strong> Saya juga ahli dalam bidang instalasi Komputer baik hardware maupun software.
+          </p>
+        </section>
+        <section class="card">
+          <h2>Pengalaman Belajar Pemrograman</h2>
+          <p>Saya mulai mendalami pemrograman sejak saya lulus SMK.Saya tertarik dengan
+            pemrograman karena saya ingin membuat website tentang diri saya sendiri atau berbagi yang telah saya buat selama ini. Saya belajar pemrograman tentunya dari dasar seperti HTML, CSS, JS. Saya belajar melalui banyak platform salah satunya
+            dicoding.com. Melalui dicoding saya belajar bagaimana menulis sintaks pemrograman yang baik dan benar tidak jarang saya menemukan kesulitan dalam belajar kemudian saya mencari bantuan mulai dari fitur forum diskusi yang disediakan
+            dicoding sampai mencari sumber referensi belajar yang lain. Itulah pengalaman belajar pemrograman saya.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- Aside -->
+  <aside class="card">
+    <center>
+      <header>
+        <h2>About Me!</h2>
+        <img src="image/profil.png" alt="ini foto saya" width="80px">
+      </header>
+      <h4>Aditya Rifki Yuliatama</h4>
+      <p>16 Mei 2002 <br> Junior Web Developer <br> live in Semarang City</p>
+    </center>
+    <div class="clear"></div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; Copyright 2022 | built by <a href="https://instagram.com/adityarifkiy">Aditya Rifki</a></p>
+    <p><a href="https://wa.me/6281390153602"> Whatsapp me</a></p>
+  </footer>
+
+  <!-- Javascript -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
